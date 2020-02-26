@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+       <meta charset="UTF-8">
+	   <link rel="stylesheet" href="css.css">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  </head>
+     
+   
+  <body>
+  
+  <a href="home.html"id="link"><li>HOME</li></a>
+  <div class="img">
+
+  
+  <div class="container mt-3">
+    <div class="jumbotron">
+  <h2>SAMUEL S YAMEOGO </h2> 
+  
+  <br>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="home.html" id="link">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="menu1">PART TWO</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="menu2">PART THREE</a>
+    </li>
+  </ul>
+     </div>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="home" class="container tab-pane active"><br>
+      <h3>HOME</h3>
+      <p> comment allez-vous Madame?</p>
+	  <p>Burkina Faso, landlocked country in western Africa. The country occupies an extensive plateau, and its 
+	  geography is characterized by a savanna that is grassy in the north and gradually gives way to sparse forests
+	  in the south.</p><br>
+	 <p> A former French colony, it gained independence as Upper Volta in 1960. The name Burkina Faso, which means
+	 “Land of Incorruptible People,” was adopted in 1984. The capital, Ouagadougou, is in the centre of the country 
+	 and lies about 500 miles (800 km) from the Atlantic Ocean.</p>
+	  <p>Burkina Faso is bounded by Mali to the north and west, Niger to the northeast, Benin to the southeast,
+	  and Côte d’Ivoire, Ghana, and Togo to the south.</p>
+    </div>
+	
+	<!-- DIVIDE-->
+    <div id="menu1" class="container tab-pane fade"><br>
+      <h3>KOUDOUGOU where I am From</h3>
+      <p> OUAGADOUGOU is a beautifull city. I was born and rised in the Capital call OUAGADOUGOU.</p><br>
+	  <p>Citizens of Burkina Faso, regardless of their ethnic origin, are collectively known as Burkinabé. French is 
+	  the official language, although it is not widely spoken. Moore, the language of the Mossi, is spoken by a great 
+	  majority of the population, and Dyula is widely used in commerce.</p> <br>
+	  <p>Upper Volta first sent an Olympic team to the 1972 Munich Games, although the first athletes from Upper Volta
+	  to participate in the Olympics were two javelin throwers who competed in the 1928 Amsterdam Olympics as members of
+	  the French team. The country’s first participation in the Olympics as Burkina Faso was in the 1988 Seoul Games.</p>
+    
+	<!--  divide-->
+	</div>
+    <div id="menu2" class="container tab-pane fade"><br>
+      <h3>European exploration and colonization</h3>
+      <p>The German explorer Gottlob Adolf Krause traversed the Mossi country in 1886, and the French army officer 
+	  Louis-Gustave Binger visited the morho naba in 1888. France obtained a protectorate over the Yatenga empire in 1895,
+	  and the French officers Paul Voulet and Charles Paul Louis Chanoine (also known as Julien Chanoine) defeated the
+	  morho naba Boukari-Koutou (Wobogo) of Mossi in 1896 and then proceeded to overrun the Gurunsi lands. The Gurma accepted 
+	  a French protectorate in 1897, and in that same year the lands of the Bobo and of the Lobi were annexed by the French 
+	  (though the Lobi, armed with poisoned arrows, were not effectively subdued until 1903). An Anglo-French convention of 1
+	  898 fixed the frontier between France’s new acquisitions and the northern territories of the Gold Coast.</p><br><br>
+
+      <p>The French divided the country into administrative cercles (“circles”) but maintained the chiefs, including the morho naba, 
+      in their traditional seats. The country at first was attached to Upper Senegal–Niger (as that colony was called from 1904 to 1920; now Mali)
+       but was organized as a separate colony, Upper Volta (Haute-Volta), in 1919. In 1932 it was partitioned between Côte d’Ivoire, Niger, and French Sudan.
+       In 1947, however, Upper Volta was reestablished to become an overseas territory of the French Union, with a territorial assembly of its own.
+       The assembly in 1957 received the right to elect an executive council of government for the territory, which at the end of 1958 was transformed into
+        an autonomous republic within the French Community. When independence was proclaimed on August 5, 1960, the new constitution provided for an
+      executive president elected by universal adult suffrage for a five-year term and an elected</p>
+    </div>
+  </div>
+</div>
+
+  
+     <p id="counting_to_ten"></p>
+	 <button type="button" class="btn btn-primary"onclick="count_to_ten()">Click here to start.</button>
+	 
+	  
+	 <p id="loop"></p>
+	 <button type="button" class="btn btn-danger" onclick="call_loop()">Click here to execute the loop.</button>
+	 <script src="new1.js"></script> 
+	 
+	 <p id="List_of_Instruments"></p>
+	 <button "button" class="btn btn-info" onclick="for_loop()">Click here as long as you can</button>
+	 
+	 <p id="Cat"></p>
+	 <button type="button" class="btn btn-warning" onclick="cat_pics()"> Click here to see ugly cats</button>
+  </div>
+ 
+ <div class ="img1">
+ 
+        <h1 class = "Glow"> Exotics Fruits </h1>
+       
+</div>	   
+	   
+        <p>comme check those tropical fruits. Capitol letter follow by lower cases letters</p>
+         <p> name one, or dream of it.</p>
+         <input id="myInput" type="text">
+        <button type="button" class="btn btn-dark" onclick="myFunction()">Check this one out</button>
+		<p id="demo"></p>
+  </div>
+   
+
+  
+ 
+  </body>
+</html>  

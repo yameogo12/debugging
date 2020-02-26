@@ -1,0 +1,14 @@
+body {
+	background-image: url("land.JPG");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* for class =.   for id =#  */
+.img1{
+	background-image: url("land,JPG");
+	background-repeat: no-repeat;
+	width: auto;
+    height: auto;
+}
